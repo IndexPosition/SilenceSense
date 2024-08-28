@@ -1,0 +1,55 @@
+.App {
+  text-align: center;
+  background-color: #0a0a0a;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.MuiPaper-root {
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  background-color: #1c1c1c;
+}
+
+.MuiTypography-h3,
+.MuiTypography-h5,
+.MuiTypography-h6,
+.MuiTypography-body1 {
+  color: #ffffff;
+}
+
+.MuiTypography-h3 {
+  font-weight: bold;
+  color: #e1ff1c;
+}
+
+.MuiTypography-h5 {
+  font-weight: bold;
+  color: #e1ff1c;
+}
+
+.MuiTypography-h6 {
+  font-weight: 500;
+  color: #f58327;
+}
+
+.MuiTypography-body1 {
+  color: #ffffff;
+}
+
+.MuiButton-root {
+  border-radius: 20px;
+  padding: 12px 24px;
+  font-weight: bold;
+  transition: background-color 0.3s, transform 0.3s;
+  color: #ffffff;
+  background-color: #e1ff1c;
+}
+
+.MuiButton-root:hover {
+  background-color: #f58327;
+  transform: scale(1.05);
+}
