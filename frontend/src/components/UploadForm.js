@@ -57,7 +57,7 @@ const UploadForm = () => {
 
     try {
       const response = await axios.post(
-        "https://silencesense-jncbdec5zjf3nttufkgpr9.streamlit.app/upload",
+        "http://localhost:3000/upload",
         formData,
         {
           headers: {
