@@ -112,10 +112,3 @@ To deploy the application, consider the following steps:
 3. **Configure Environment Variables:**
    - Ensure that environment variables for production are set correctly in both the frontend and backend deployments.
 
-## Contributing
-
-Feel free to contribute by submitting issues or pull requests. Please follow the standard practices for contributing to open source projects.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
